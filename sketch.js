@@ -2,15 +2,9 @@ var img;
 
 function setup() {
   createCanvas(720, 400);
-  img=loadImage("train.jpg");
+  img=loadImage("train.png");
 }
-function draw(){
-	drawSaram();
-	
-
-
-}
-function drawAn() {
+function draw() {
   
   
   push();
