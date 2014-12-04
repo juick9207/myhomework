@@ -7,53 +7,53 @@ function setup() {
 function draw() {
   background(img);
   push();
-  translate(width*0.3, height*0.3-100);
+  translate(width*0.3-20, height*0.3+100);
   rotate(frameCount / 60.0);
   star(0, 0, 80, 100, 30); 
   pop();
 
   push();
-  translate(width*0.3+143, height*0.3-87);
+  translate(width*0.3+123, height*0.3+117);
   rotate(frameCount / 20);
   star(0, 0, 40, 50, 10); 
   pop();
 
   push();
-  translate(width*0.3+200, height*0.3-140);
+  translate(width*0.3+180, height*0.3+60);
   rotate(frameCount / 15);
   star(0, 0, 25, 35, 6); 
   pop();
   
   push();
-  translate(width*0.3+225, height*0.3-90);
+  translate(width*0.3+205, height*0.3+110);
   rotate(frameCount / 10);
   star(0, 0, 30, 25, 8); 
   pop();
 
 
   push();
-  translate(width*0.3+350, height*0.3-100);
+  translate(width*0.3+330, height*0.3+100);
   rotate(frameCount / 70.0);
   star(0, 0, 88, 100, 20); 
   pop();
 
    push();
-  translate(width*0.43, height*0.45-100);
+  translate(width*0.43-20, height*0.45+100);
   rotate(frameCount / 10);
   star(0, 0, 15, 20, 6); 
   pop();
 
   fill(102);
   noStroke();
-  ellipse(width*0.3, height*0.3-100,60,60);
-  ellipse(width*0.3+350, height*0.3-100,50,50);
+  ellipse(width*0.3-20, height*0.3+100,60,60);
+  ellipse(width*0.3+330, height*0.3+100,50,50);
    var duration = 1000;
    var timing = (new Date()%duration)/duration;
 
    fill(100,100,255);
     strokeWeight(2);
-    rect(width*0.3 + Math.cos(timing*2*PI)*30,
-          height*0.3-100+Math.sin(timing*2*PI)*30,
+    rect(width*0.3-20 + Math.cos(timing*2*PI)*30,
+          height*0.3+100+Math.sin(timing*2*PI)*30,
           350,
           20);
 }
