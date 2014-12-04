@@ -6,6 +6,7 @@ function setup() {
 }
 function draw() {
   
+  drawSaram();
   push();
   translate(width*0.3-20, height*0.3+100);
   rotate(frameCount / 60.0);
@@ -73,7 +74,7 @@ function star(x, y, radius1, radius2, npoints) {
 
 }
 function drawSaram(){
-image(img)
+image(img);
 }
 
 
