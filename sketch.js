@@ -57,6 +57,7 @@ function draw() {
           height*0.3+100+Math.sin(timing*2*PI)*30,
           350,
           20);
+    drawSaram();
 }
 
 function star(x, y, radius1, radius2, npoints) {
