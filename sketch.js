@@ -6,7 +6,7 @@ function setup() {
 }
 function draw(){
 	drawSaram();
-	drawAn();
+	
 
 
 }
