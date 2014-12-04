@@ -5,7 +5,7 @@ function setup() {
   img=loadImage("tarin.png");
 }
 function draw() {
-  background(102);
+  
   push();
   translate(width*0.3-20, height*0.3+100);
   rotate(frameCount / 60.0);
