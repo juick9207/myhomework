@@ -4,7 +4,13 @@ function setup() {
   createCanvas(720, 400);
   img=loadImage("train.png");
 }
-function draw() {
+function draw(){
+	drawSaram();
+	drawAn();
+
+
+}
+function drawAn() {
   
   
   push();
@@ -58,7 +64,7 @@ function draw() {
           350,
           20);
 }
-drawSaram();
+
 function star(x, y, radius1, radius2, npoints) {
   var angle = TWO_PI / npoints;
   var halfAngle = angle/2.0;
