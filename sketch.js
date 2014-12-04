@@ -6,7 +6,7 @@ function setup() {
 }
 function draw() {
   
-  drawSaram();
+  
   push();
   translate(width*0.3-20, height*0.3+100);
   rotate(frameCount / 60.0);
@@ -58,6 +58,7 @@ function draw() {
           350,
           20);
 }
+drawSaram();
 function star(x, y, radius1, radius2, npoints) {
   var angle = TWO_PI / npoints;
   var halfAngle = angle/2.0;
