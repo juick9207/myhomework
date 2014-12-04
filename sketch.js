@@ -75,7 +75,7 @@ function star(x, y, radius1, radius2, npoints) {
 
 }
 function drawSaram(){
-image(img);
+image(img,0,0);
 }
 
 
