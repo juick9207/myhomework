@@ -2,10 +2,10 @@ var img;
 
 function setup() {
   createCanvas(720, 400);
-  img=loadImage("train.jpg");
+  img=loadImage("tarin.png");
 }
 function draw() {
-  background(img);
+  background(102);
   push();
   translate(width*0.3-20, height*0.3+100);
   rotate(frameCount / 60.0);
@@ -71,6 +71,9 @@ function star(x, y, radius1, radius2, npoints) {
   }
   endShape(CLOSE);
 
+}
+function drawSaram(){
+image(img)
 }
 
 
