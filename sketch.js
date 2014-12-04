@@ -2,7 +2,7 @@ var img;
 
 function setup() {
   createCanvas(720, 400);
-  img=loadImage("tarin.png");
+  img=loadImage("train.png");
 }
 function draw() {
   
